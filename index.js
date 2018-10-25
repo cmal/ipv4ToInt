@@ -40,7 +40,7 @@ var errChar = new Error('[INVALID] Character.');
 /**
  * Throw if other error occurs.
  */
-var errOther = new Error('[INVALID] A unnamed error.')
+var errOther = new Error('[INVALID] An unnamed error.')
 
 
 /**

@@ -48,10 +48,10 @@ var errOther = new Error('[INVALID] An unnamed error.')
  *
  * We have 4 sections of numbers and 3 DOTs.  Each section has three
  * state: START, MIDDLE, END.  A DOT makes the transition from one
- * section to the next, and is rejected by START.  DIGITs makes the
- * transition from START to MIDDLE but is rejected by END, while SPACE
- * makes the transition from MIDDLE to END but does not affect the
- * other two.
+ * section to the next, and is rejected by START.  A DIGIT makes the
+ * transition from START to MIDDLE but is rejected by END, while a
+ * SPACE makes the transition from MIDDLE to END but does not affect
+ * the other two.
  */
 
 var INIT_SECTION = 0;
